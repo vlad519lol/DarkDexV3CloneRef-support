@@ -5,8 +5,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/vlad519lol/DarkDexV3C
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vlad519lol/DarkDexV3CloneRef-support/refs/heads/main/Bypasses.lua", true))()
 
 -- Dex with CloneRef Support (made as global)
-getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9352453730")[1]
-getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9991934709")[1]
+-- getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9352453730")[1] -- Old 9352453730
+-- getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://9991934709")[1] -- Mine
+getgenv().Bypassed_Dex = game:GetObjects("rbxassetid://90650337302007")[1]
 
 local charset = {}
 for i = 48,  57 do table.insert(charset, string.char(i)) end
